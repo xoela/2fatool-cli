@@ -13,7 +13,7 @@ def clear():
 def get_secret():
     while True:
         clear()
-        print(f"{Fore.CYAN}2FA Code Generator {Style.RESET_ALL}\n")
+        print(f"{Fore.CYAN}=== 2FA Code Generator ==={Style.RESET_ALL}\n")
         secret = input("Enter 2FA secret key: ").strip().replace(" ", "").upper()
         if not secret:
             continue
